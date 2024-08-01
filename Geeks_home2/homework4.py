@@ -61,6 +61,6 @@
 
        
     #self.number_1+other.number_1, self.number_2+other.number_2
-# c1=Book('dff','efs',1945)
-# c2=Book('asd','hdf',1950)
-# print(c1==c2)
+c1=Book('dff','efs',1945)
+c2=Book('asd','hdf',1950)
+print(c1==c2)
