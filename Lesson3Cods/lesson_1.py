@@ -13,8 +13,8 @@
 # donier
 # потом придумаем username , который заканчивается bot
 # doni_bot
-# потом копируем токен 7240191454:AAGj4xwCLliC0rVjNYGgzR6lGgI4uxaKZxs и вставим где 
-# bot = Bot(token='7240191454:AAGj4xwCLliC0rVjNYGgzR6lGgI4uxaKZxs')
+# потом копируем токен 191454:AAGj4xwCLliC0rVjNYGgzR6lGgI4uxaKZxs и вставим где 
+# bot = Bot(token='191454:AAGj4xwCLliC0rVjNYGgzR6lGgI4uxaKZxs')
 # потом запускаем где:  (venv) ps c:\users\doni\desktop\Geeks> python lesson_1.py  
 # из телеграм выбираем t.me/pythondoni_bot.        запустить и вводим /st
  
@@ -27,7 +27,7 @@ from aiogram import Bot, Dispatcher
 from aiogram.types import Message # type: ignore
 from aiogram.filters import Command
 
-bot = Bot(token='7240191454:AAGj4xwCLliC0rVjNYGgzR6lGgI4uxaKZxs')
+bot = Bot(token='191454:AAGj4xwCLliC0rVjNYGgzR6lGgI4uxaKZxs')
 dp = Dispatcher()
 
 @dp.message(Command('st'))
